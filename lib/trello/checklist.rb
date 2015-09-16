@@ -57,6 +57,8 @@ module Trello
       attributes[:check_items] = fields['checkItems']
       attributes[:position] = fields['pos']
       attributes[:board_id] = fields['idBoard']
+      attributes[:card_id]  = fields['idCard']
+      attributes[:checklist_source_id] = fields['idChecklistSource']
       attributes[:list_id] = fields['idList']
       attributes[:member_ids] = fields['idMembers']
       self
